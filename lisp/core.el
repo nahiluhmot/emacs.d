@@ -36,7 +36,7 @@
 (setq auto-save-default nil)
 ; Who wants this right next to your text?
 (setq linum-format " %d ")
-;; Spaces > Tabs.
+; Spaces > Tabs.
 (setq-default indent-tabs-mode nil)
 
 ;; Hooks

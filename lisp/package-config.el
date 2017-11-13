@@ -75,4 +75,7 @@
     (setq web-mode-markup-indent-offset 2))
   (add-hook 'web-mode-hook 'my-web-mode-hook))
 
+(use-package yaml-mode
+  :ensure t)
+
 (provide 'package-config)
