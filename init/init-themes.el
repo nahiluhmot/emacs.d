@@ -7,4 +7,4 @@
 (use-package ujelly-theme
   :ensure t)
 
-(provide 'themes)
+(provide 'init-themes)

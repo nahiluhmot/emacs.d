@@ -85,4 +85,4 @@
 (use-package yaml-mode
   :ensure t)
 
-(provide 'package-config)
+(provide 'init-package-config)

@@ -15,4 +15,4 @@
 (global-set-key (kbd "C-c j b") 'jenkins-build)
 (global-set-key (kbd "C-c j s") 'jenkins-show)
 
-(provide 'jenkins)
+(provide 'init-jenkins)

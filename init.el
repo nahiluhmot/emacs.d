@@ -13,19 +13,21 @@
     ("melpa" . "https://melpa.milkbox.net/packages/")))
 (package-initialize)
 
+(add-to-list 'load-path "~/.emacs.d/init/")
+
 ;;; Files which require no external packages.
-(load-file "~/.emacs.d/lisp/core.el")
-(load-file "~/.emacs.d/lisp/jenkins.el")
-(load-file "~/.emacs.d/lisp/github.el")
-(load-file "~/.emacs.d/lisp/copy-paste.el")
-(load-file "~/.emacs.d/lisp/zap.el")
+(require 'init-core)
+(require 'init-jenkins)
+(require 'init-github)
+(require 'init-copy-paste)
+(require 'init-zap)
 
 ;;; External package dependent configuration.
-(load-file "~/.emacs.d/lisp/package-config.el")
-(load-file "~/.emacs.d/lisp/themes.el")
+(require 'init-package-config)
+(require 'init-themes)
 
 ; This is objectively annoying in init.el
-(setq custom-file "~/.emacs.d/lisp/custom.el")
+(setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 
 (provide 'init)

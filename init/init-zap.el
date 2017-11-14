@@ -19,3 +19,5 @@
           ((> start end) (kill-region start (1+ end))))))
 
 (global-set-key (kbd "M-Z") 'zap-up-to-char)
+
+(provide 'init-zap)

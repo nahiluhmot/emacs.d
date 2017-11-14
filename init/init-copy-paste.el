@@ -14,4 +14,4 @@
 (global-set-key (kbd "C-c c") 'pbcopy)
 (global-set-key (kbd "C-c v") 'pbpaste)
 
-(provide 'copy-paste)
+(provide 'init-copy-paste)

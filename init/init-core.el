@@ -62,4 +62,4 @@
 ; This is just a nice key binding.
 (global-set-key (kbd "s-<return>") 'toggle-frame-fullscreen)
 
-(provide 'core)
+(provide 'init-core)

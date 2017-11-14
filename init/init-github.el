@@ -9,4 +9,4 @@
 
 (global-set-key (kbd "C-c h b") 'hub-browse)
 
-(provide 'github)
+(provide 'init-github)
