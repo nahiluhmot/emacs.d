@@ -20,6 +20,7 @@
 
 ; Additional config, listed in alphabetical order.
 (require 'init-coffeescript)
+(require 'init-company)
 (require 'init-copy-paste)
 (require 'init-elisp)
 (require 'init-evil)
