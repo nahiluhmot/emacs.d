@@ -23,6 +23,7 @@
 (require 'init-copy-paste)
 (require 'init-evil)
 (require 'init-github)
+(require 'init-gui)
 (require 'init-helm)
 (require 'init-jenkins)
 (require 'init-magit)
