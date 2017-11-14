@@ -2,7 +2,7 @@
 
 ;;; Commentary:
 
-;; All actual configuration lives in ~/.emacs.d/lisp/
+;; All actual configuration lives in ~/.emacs.d/init/
 
 ;;; Code:
 
@@ -15,19 +15,24 @@
 
 (add-to-list 'load-path "~/.emacs.d/init/")
 
-;;; Files which require no external packages.
+; Core config.
 (require 'init-core)
-(require 'init-jenkins)
-(require 'init-github)
+
+; Additional config, listed in alphabetical order.
+(require 'init-coffeescript)
 (require 'init-copy-paste)
-(require 'init-zap)
-
-;;; External package dependent configuration.
-(require 'init-package-config)
+(require 'init-evil)
+(require 'init-github)
+(require 'init-helm)
+(require 'init-jenkins)
+(require 'init-magit)
+(require 'init-markdown)
+(require 'init-projectile)
+(require 'init-rainbow)
+(require 'init-ruby)
 (require 'init-themes)
-
-; This is objectively annoying in init.el
-(setq custom-file "~/.emacs.d/custom.el")
-(load custom-file)
+(require 'init-web)
+(require 'init-yaml)
+(require 'init-zap)
 
 (provide 'init)

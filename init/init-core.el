@@ -62,4 +62,16 @@
 ; This is just a nice key binding.
 (global-set-key (kbd "s-<return>") 'toggle-frame-fullscreen)
 
+; Install use-packge.
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+
+(eval-when-compile
+  (require 'use-package))
+
+; This is objectively annoying in init.el
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
+
 (provide 'init-core)
