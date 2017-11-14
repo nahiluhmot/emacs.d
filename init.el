@@ -32,6 +32,7 @@
 (require 'init-markdown)
 (require 'init-projectile)
 (require 'init-rainbow)
+(require 'init-smartparens)
 (require 'init-ruby)
 (require 'init-term)
 (require 'init-web)
