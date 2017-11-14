@@ -5,7 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (yaml-mode web-mode use-package ujelly-theme rainbow-delimiters markdown-mode magit helm-projectile go-mode evil-surround))))
+    (coffee-mode helm-ag yaml-mode helm-projectile helm web-mode use-package ujelly-theme rainbow-delimiters projectile markdown-mode magit go-mode evil-surround))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

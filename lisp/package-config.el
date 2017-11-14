@@ -12,6 +12,13 @@
 
 ; Dependencies, listed alphabetically.
 
+(use-package coffee-mode
+  :ensure t
+  :mode "\\.coffee$"
+  :init
+  (setq coffee-tab-width 4)
+  (setq coffee-indent-like-python-mode t))
+
 (use-package evil
   :ensure t
   :bind (:map evil-insert-state-map
@@ -70,7 +77,7 @@
   :ensure t
   :mode ("\\.jsx$" "\\.hbs$")
   :config
-  (defun my-wed-mode-hook ()
+  (defun my-web-mode-hook ()
     "Hooks for web-mode."
     (setq web-mode-markup-indent-offset 2))
   (add-hook 'web-mode-hook 'my-web-mode-hook))
