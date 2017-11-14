@@ -2,6 +2,10 @@
 
 (when (display-graphic-p)
   (set-face-attribute 'default nil :height 160)
+  (use-package spacemacs-theme
+    :ensure t
+    :init
+    (load-theme 'spacemacs-dark))
   (use-package exec-path-from-shell
     :ensure t
     :init

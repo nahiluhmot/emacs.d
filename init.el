@@ -21,7 +21,9 @@
 ; Additional config, listed in alphabetical order.
 (require 'init-coffeescript)
 (require 'init-copy-paste)
+(require 'init-elisp)
 (require 'init-evil)
+(require 'init-flycheck)
 (require 'init-github)
 (require 'init-gui)
 (require 'init-helm)
@@ -31,7 +33,7 @@
 (require 'init-projectile)
 (require 'init-rainbow)
 (require 'init-ruby)
-(require 'init-themes)
+(require 'init-term)
 (require 'init-web)
 (require 'init-yaml)
 (require 'init-zap)
