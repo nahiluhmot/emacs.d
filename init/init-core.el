@@ -1,8 +1,8 @@
-;;; core.el --- core configuration
+;;; init-core.el --- core configuration
 
 ;;; Commentary:
 
-;; Basic configuration that applies to emacs as a whole goes here.
+;; Basic configuration that applies to Emacs as a whole goes here.
 ;; Note that packages have yet to be loaded at this point.
 
 ;;; Code:
@@ -18,26 +18,33 @@
 (global-linum-mode t)
 (column-number-mode t)
 
+;; Better defvar.
+
+(defmacro setvar (symbol &optional initval docstring)
+  "Like defvar SYMBOL INITVAL DOCSTRING, but will setq the variable if it's already defined."
+  (if (boundp symbol)
+      `(setq ,symbol ,initval)
+    `(defvar ,symbol ,initval ,docstring)))
+
 ;; Variables
 
 ; Real time saver.
 (fset 'yes-or-no-p 'y-or-n-p)
 ; Computers are fast.
-(setq gc-cons-threshold 50000000)
+(setvar gc-cons-threshold 50000000)
 ; Auto insert newlines.
-(setq require-final-newline t)
+(setvar require-final-newline t)
 ; Bells are annoying.
-(setq ring-bell-function 'ignore)
+(setvar ring-bell-function 'ignore)
 ; Splash-free.
-(setq inhibit-splash-screen t)
-(setq inhibit-startup-message t)
+(setvar inhibit-splash-screen t)
+(setvar inhibit-startup-message t)
 ; Live on the wild side.
-(setq make-backup-files nil)
-(setq auto-save-default nil)
-; Who wants this right next to your text?
-(setq linum-format " %d ")
+(setvar make-backup-files nil)
+(setvar auto-save-default nil)
+(setvar linum-format " %d ")
 ; Spaces > Tabs.
-(setq-default indent-tabs-mode nil)
+(setvar indent-tabs-mode nil)
 
 ;; Hooks
 
@@ -71,7 +78,8 @@
   (require 'use-package))
 
 ; This is objectively annoying in init.el
-(setq custom-file "~/.emacs.d/custom.el")
+(setvar custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 
 (provide 'init-core)
+;;; init-core.el ends here

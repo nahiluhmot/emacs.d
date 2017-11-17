@@ -6,7 +6,7 @@
   :ensure t
   :mode "\\.coffee$"
   :init
-  (setq coffee-tab-width 4)
-  (setq coffee-indent-like-python-mode t))
+  (setvar coffee-tab-width 4)
+  (setvar coffee-indent-like-python-mode t))
 
 (provide 'init-coffeescript)

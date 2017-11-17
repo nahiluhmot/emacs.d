@@ -9,8 +9,8 @@
   :bind (:map evil-normal-state-map
               ("C-t" . transpose-chars))
   :init
-  (setq evil-want-C-u-scroll t)
-  (setq evil-want-C-d-scroll t)
+  (setvar evil-want-C-u-scroll t)
+  (setvar evil-want-C-d-scroll t)
   (evil-mode 1)
   :config
   (evil-set-initial-state 'dired-mode 'emacs)

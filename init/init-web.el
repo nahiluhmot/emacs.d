@@ -4,7 +4,8 @@
 
 (defun my-web-mode-hook ()
   "Hooks for web-mode."
-  (setq web-mode-markup-indent-offset 2))
+  (setvar
+   web-mode-markup-indent-offset 2))
 
 (use-package web-mode
   :ensure t
