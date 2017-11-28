@@ -2,7 +2,7 @@
 
 ;;; Code:
 
-(defun zap-up-to-char (n char)
+(defun init-zap-up-to-char (n char)
   "Zap up to N occurrences of the given CHAR."
   (interactive "P\ncZap up to char:")
   (let* ((modifier (if (eq (char-after) char) '1+ 'identity))
@@ -18,6 +18,6 @@
           ((< start end) (kill-region start (1- end)))
           ((> start end) (kill-region start (1+ end))))))
 
-(global-set-key (kbd "M-Z") 'zap-up-to-char)
+(global-set-key (kbd "M-Z") 'init-zap-up-to-char)
 
 (provide 'init-zap)

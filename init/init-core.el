@@ -56,14 +56,6 @@
 
 ;; Keys
 
-;; Modify initialization
-(defun modify-init ()
-  "Open init.el to edit it."
-  (interactive)
-  (find-file "~/.emacs.d/init.el"))
-
-(global-set-key (kbd "C-c I") 'modify-init)
-
 ; Enable regex search by default.
 (global-set-key (kbd "C-s") 'isearch-forward-regexp)
 (global-set-key (kbd "C-r") 'isearch-backward-regexp)
