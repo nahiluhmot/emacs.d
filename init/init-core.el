@@ -45,6 +45,9 @@
 (setvar linum-format " %d ")
 ; Spaces > Tabs.
 (setvar indent-tabs-mode nil)
+; Enable up/down case.
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
 
 ;; Hooks
 
