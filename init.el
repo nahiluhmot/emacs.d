@@ -1,4 +1,4 @@
-;;; init.el
+;;; init.el -- Custom configuration
 
 ;;; Commentary:
 
@@ -42,3 +42,4 @@
 (require 'init-zap)
 
 (provide 'init)
+;;; init.el ends here
