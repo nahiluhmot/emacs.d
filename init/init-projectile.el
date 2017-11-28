@@ -11,4 +11,7 @@
   :init
   (helm-projectile-on))
 
+(use-package helm-ag
+  :ensure t)
+
 (provide 'init-projectile)
