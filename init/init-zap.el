@@ -11,10 +11,10 @@
          (end (save-excursion
                 (search-forward (char-to-string char) nil t (funcall modifier number)))))
     (cond ((not end)
-           (cond ((= number 1) (error "No occurrences of '%c' after the point." char))
-                 ((= number -1) (error "No occurrences of '%c' before the point." char))
-                 ((> number 1) (error "Less than %d occurrences of '%c' after the point." number char))
-                 ((< number 1) (error "Less than %d occurrences of '%c' before the point." (abs number) char))))
+           (cond ((= number 1) (error "No occurrences of '%c' after the point" char))
+                 ((= number -1) (error "No occurrences of '%c' before the point" char))
+                 ((> number 1) (error "Less than %d occurrences of '%c' after the point" number char))
+                 ((< number 1) (error "Less than %d occurrences of '%c' before the point" (abs number) char))))
           ((< start end) (kill-region start (1- end)))
           ((> start end) (kill-region start (1+ end))))))
 
