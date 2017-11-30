@@ -20,9 +20,4 @@
   (evil-set-initial-state 'package-menu-mode 'emacs)
   (evil-set-initial-state 'git-commit-mode 'emacs))
 
-(use-package evil-surround
-  :ensure t
-  :init
-  (global-evil-surround-mode 1))
-
 (provide 'init-evil)
