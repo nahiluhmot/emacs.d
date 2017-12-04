@@ -10,7 +10,7 @@
 
 (setq package-archives
   '(("gnu" . "https://elpa.gnu.org/packages/")
-    ("melpa" . "https://melpa.milkbox.net/packages/")))
+    ("melpa-stable" . "https://stable.melpa.org/packages/")))
 (package-initialize)
 
 (add-to-list 'load-path "~/.emacs.d/init/")

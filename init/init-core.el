@@ -69,6 +69,9 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
+; Only add melpa unstable after use package is installed.
+(add-to-list 'package-archives '("melpa-unstable" . "https://melpa.org/packages/"))
+
 (eval-when-compile
   (require 'use-package))
 
