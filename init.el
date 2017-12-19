@@ -22,6 +22,7 @@
 (require 'init-coffeescript)
 (require 'init-company)
 (require 'init-copy-paste)
+(require 'init-csv)
 (require 'init-diff-hl)
 (require 'init-elisp)
 ; (require 'init-evil)
