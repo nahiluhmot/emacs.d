@@ -3,7 +3,7 @@
 ;;; Code:
 
 (defun init-pbcopy (start end)
-  "Copy the region form START to END into the system copy buffer."
+  "Copy the region from START to END into the system copy buffer."
   (interactive "r")
   (shell-command-on-region start end "pbcopy"))
 (defun init-pbpaste ()
