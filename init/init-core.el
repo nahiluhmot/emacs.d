@@ -42,9 +42,9 @@
 ; Live on the wild side.
 (setvar make-backup-files nil)
 (setvar auto-save-default nil)
-(setvar linum-format " %d ")
+(setq linum-format " %d ")
 ; Spaces > Tabs.
-(setvar indent-tabs-mode nil)
+(setq-default indent-tabs-mode nil)
 ; Enable up/down case.
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
