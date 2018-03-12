@@ -25,7 +25,7 @@
 (require 'init-csv)
 (require 'init-diff-hl)
 (require 'init-elisp)
-; (require 'init-evil)
+(require 'init-evil)
 (require 'init-flycheck)
 (require 'init-github)
 (require 'init-gui)
