@@ -1,6 +1,7 @@
 ;;; init-term.el
 
-(use-package ujelly-theme
-  :ensure t)
+(unless (display-graphic-p)
+  (use-package ujelly-theme
+    :ensure t))
 
 (provide 'init-term)
