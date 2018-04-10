@@ -9,7 +9,8 @@
 (use-package helm-projectile
   :ensure t
   :init
-  (helm-projectile-on))
+  (helm-projectile-on)
+  (setq projectile-completion-system 'helm))
 
 (use-package helm-ag
   :ensure t)
