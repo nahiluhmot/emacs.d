@@ -14,6 +14,7 @@
   (evil-mode 1)
   :config
   (evil-set-initial-state 'dired-mode 'emacs)
+  (evil-set-initial-state 'inf-ruby-mode 'emacs)
   (evil-set-initial-state 'magit-mode 'emacs)
   (evil-set-initial-state 'term-mode 'emacs)
   (evil-set-initial-state 'magit-blame-mode 'emacs)
