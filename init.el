@@ -14,6 +14,7 @@
 (package-initialize)
 
 (add-to-list 'load-path "~/.emacs.d/init/")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
 ; Core config.
 (require 'init-core)
