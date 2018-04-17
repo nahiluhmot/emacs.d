@@ -40,6 +40,7 @@
 (require 'init-smartparens)
 (require 'init-ruby)
 (require 'init-term)
+(require 'init-transpose-superword)
 (require 'init-typescript)
 (require 'init-web)
 (require 'init-yaml)
