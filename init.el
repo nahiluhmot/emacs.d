@@ -30,6 +30,7 @@
 (require 'init-flycheck)
 (require 'init-github)
 (require 'init-gui)
+(require 'init-haskell)
 (require 'init-helm)
 (require 'init-javascript)
 (require 'init-jenkins)

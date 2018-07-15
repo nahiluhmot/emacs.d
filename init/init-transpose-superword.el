@@ -1,4 +1,4 @@
-;;; transpose-superword.el
+;;; init-transpose-superword.el
 
 (defun init-transpose-superword ()
   "Transpose the current and previous superwords"
@@ -8,3 +8,5 @@
   (superword-mode -1))
 
 (global-set-key (kbd "M-T") 'init-transpose-superword)
+
+(provide 'init-transpose-superword)

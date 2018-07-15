@@ -9,9 +9,9 @@
 (when (display-graphic-p)
   (use-package spacemacs-theme
     :ensure t
-    :defer t
-    :init
-    (load-theme 'spacemacs-dark t))
+    :defer t)
+  (use-package ujelly-theme
+    :ensure t)
   (set-face-attribute 'default nil :height 160))
 
 (provide 'init-gui)

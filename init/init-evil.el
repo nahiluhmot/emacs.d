@@ -17,6 +17,7 @@
   (evil-set-initial-state 'inf-ruby-mode 'emacs)
   (evil-set-initial-state 'magit-mode 'emacs)
   (evil-set-initial-state 'term-mode 'emacs)
+  (evil-set-initial-state 'eshell-mode 'emacs)
   (evil-set-initial-state 'magit-blame-mode 'emacs)
   (evil-set-initial-state 'package-menu-mode 'emacs)
   (evil-set-initial-state 'git-commit-mode 'emacs))
