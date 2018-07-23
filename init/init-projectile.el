@@ -2,6 +2,8 @@
 
 (use-package projectile
   :ensure t
+  :init
+  (setq projectile-keymap-prefix (kbd "C-c p"))
   :config
   (setvar projectile-indexing-mode 'alien)
   (projectile-global-mode))
