@@ -9,7 +9,7 @@
  '(haskell-stylish-on-save t)
  '(package-selected-packages
    (quote
-    (doom-themes haskell-mode spacemacs-theme afternoon-theme rbenv projectile-rails prettier-js go-mode js2-mode tide s csv-mode helm-ag exec-path-from-shell yaml-mode web-mode ujelly-theme smartparens rainbow-delimiters helm-projectile projectile markdown-mode magit helm flycheck evil-surround evil diff-hl company coffee-mode use-package)))
+    (company-go doom-themes haskell-mode spacemacs-theme afternoon-theme rbenv projectile-rails prettier-js go-mode js2-mode tide s csv-mode helm-ag exec-path-from-shell yaml-mode web-mode ujelly-theme smartparens rainbow-delimiters helm-projectile projectile markdown-mode magit helm flycheck evil-surround evil diff-hl company coffee-mode use-package)))
  '(safe-local-variable-values
    (quote
     ((flycheck-clang-include-path

@@ -29,6 +29,7 @@
 (require 'init-evil)
 (require 'init-flycheck)
 (require 'init-github)
+(require 'init-go)
 (require 'init-gui)
 (require 'init-haskell)
 (require 'init-helm)
