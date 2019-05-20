@@ -19,12 +19,12 @@
   "Use a lighter theme for day."
   (interactive)
   (disable-theme 'doom-tomorrow-night)
-  (load-theme 'doom-nord-light))
+  (load-theme 'doom-tomorrow-day))
 
 (defun night-mode ()
   "Use a darker theme for night."
   (interactive)
-  (disable-theme 'doom-nord-light)
+  (disable-theme 'doom-tomorrow-day)
   (load-theme 'doom-tomorrow-night))
 
 (global-set-key (kbd "C-c d") 'day-mode)
