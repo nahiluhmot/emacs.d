@@ -41,6 +41,7 @@
 (require 'init-rainbow)
 (require 'init-smartparens)
 (require 'init-ruby)
+(require 'init-tmux)
 (require 'init-transpose-superword)
 (require 'init-typescript)
 (require 'init-web)
