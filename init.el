@@ -19,7 +19,11 @@
 ; Core config.
 (require 'init-core)
 
+; Many languages use rainbow delims.
+(require 'init-rainbow)
+
 ; Additional config, listed in alphabetical order.
+
 (require 'init-coffeescript)
 (require 'init-company)
 (require 'init-copy-paste)
@@ -38,7 +42,6 @@
 (require 'init-magit)
 (require 'init-markdown)
 (require 'init-projectile)
-(require 'init-rainbow)
 (require 'init-smartparens)
 (require 'init-ruby)
 (require 'init-tmux)
