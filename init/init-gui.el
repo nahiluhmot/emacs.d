@@ -11,7 +11,7 @@
       (set-face-attribute 'default nil :height 180)
       (use-package doom-themes
         :ensure t)
-      (load-theme 'doom-tomorrow-night))
+      (load-theme 'doom-tomorrow-day))
   (use-package ujelly-theme
     :ensure t))
 
