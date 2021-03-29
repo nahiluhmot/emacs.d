@@ -79,5 +79,7 @@
 (setvar custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 
+(require 'tramp)
+
 (provide 'init-core)
 ;;; init-core.el ends here

@@ -30,10 +30,13 @@
 (require 'init-csv)
 (require 'init-diff-hl)
 (require 'init-elisp)
+(require 'init-elm)
 (require 'init-evil)
+(require 'init-file-name-copy)
 (require 'init-flycheck)
 (require 'init-github)
 (require 'init-go)
+(require 'init-golden-ratio)
 (require 'init-gui)
 (require 'init-haskell)
 (require 'init-helm)
@@ -55,3 +58,4 @@
 
 (provide 'init)
 ;;; init.el ends here
+(put 'set-goal-column 'disabled nil)
