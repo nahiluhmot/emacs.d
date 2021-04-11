@@ -41,7 +41,6 @@
 (require 'init-haskell)
 (require 'init-helm)
 (require 'init-javascript)
-(require 'init-jenkins)
 (require 'init-magit)
 (require 'init-markdown)
 (require 'init-projectile)
