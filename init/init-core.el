@@ -81,5 +81,8 @@
 
 (require 'tramp)
 
+(when (eql system-type 'darwin)
+  (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3"))
+
 (provide 'init-core)
 ;;; init-core.el ends here
