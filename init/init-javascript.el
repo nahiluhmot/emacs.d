@@ -1,4 +1,4 @@
-;;; init-javascript.el
+;;; init-javascript.le
 
 (defun init-js2-mode ()
   "Life is pain."
@@ -15,5 +15,7 @@
 
 (use-package prettier-js
   :ensure t)
+
+(setvar js-indent-level 2)
 
 (provide 'init-javascript)

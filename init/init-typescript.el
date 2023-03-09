@@ -5,9 +5,12 @@
   (tide-setup)
   (add-hook 'before-save-hook 'tide-format-before-save))
 
+(use-package typescript-mode
+  :ensure t
+  :mode ("\\.\\(ts\\|tsx\\)\\'" . typescript-mode))
+
 (use-package tide
   :ensure t
-  :mode ("\\.\\(ts\\|tsx\\)\\'" . typescript-mode)
   :init
   (setq tide-format-options '(:insertSpaceAfterFunctionKeywordForAnonymousFunctions t :placeOpenBraceOnNewLineForFunctions nil :tabSize 2 :indentSize 2))
   (setq typescript-indent-level 2)
