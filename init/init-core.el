@@ -15,7 +15,7 @@
 (scroll-bar-mode -1)
 
 ; Line numbers.
-(global-linum-mode t)
+(global-display-line-numbers-mode 1)
 (column-number-mode t)
 
 ;; Better defvar.

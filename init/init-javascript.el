@@ -10,10 +10,10 @@
   :mode ("\\.js$")
   :config
   (add-hook 'js2-mode-hook 'rainbow-delimiters-mode)
-  (add-hook 'js2-mode-hook 'prettier-js-mode)
+  (add-hook 'js2-mode-hook 'prettier-mode)
   (add-hook 'js2-mode-hook 'init-js2-mode))
 
-(use-package prettier-js
+(use-package prettier
   :ensure t)
 
 (setvar js-indent-level 2)
