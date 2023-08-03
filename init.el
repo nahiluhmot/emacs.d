@@ -39,7 +39,6 @@
 (require 'init-golden-ratio)
 (require 'init-gui)
 (require 'init-haskell)
-(require 'init-helm)
 (require 'init-javascript)
 (require 'init-magit)
 (require 'init-markdown)

@@ -21,7 +21,7 @@
  '(jdee-db-spec-breakpoint-face-colors (cons "#f2f2f2" "#a5a4a5"))
  '(objed-cursor-color "#c82829")
  '(package-selected-packages
-   '(prettier typescript-mode flycheck-rust rust-mode golden-ratio eglot elm-mode helm-rg centaur-tabs lsp-haskell lsp-ui lsp-mode 0blayout company-go doom-themes haskell-mode spacemacs-theme afternoon-theme rbenv projectile-rails prettier-js go-mode js2-mode tide s csv-mode helm-ag exec-path-from-shell yaml-mode web-mode ujelly-theme smartparens rainbow-delimiters helm-projectile projectile markdown-mode magit helm flycheck evil-surround evil diff-hl company coffee-mode use-package))
+   '(ivy prettier typescript-mode flycheck-rust rust-mode golden-ratio eglot elm-mode helm-rg centaur-tabs lsp-haskell lsp-ui lsp-mode 0blayout company-go doom-themes haskell-mode spacemacs-theme afternoon-theme rbenv projectile-rails prettier-js go-mode js2-mode tide s csv-mode helm-ag exec-path-from-shell yaml-mode web-mode ujelly-theme smartparens rainbow-delimiters helm-projectile projectile markdown-mode magit helm flycheck evil-surround evil diff-hl company coffee-mode use-package))
  '(pdf-view-midnight-colors (cons "#4d4d4c" "#ffffff"))
  '(rustic-ansi-faces
    ["#ffffff" "#c82829" "#718c00" "#eab700" "#4271ae" "#c678dd" "#8abeb7" "#4d4d4c"])
