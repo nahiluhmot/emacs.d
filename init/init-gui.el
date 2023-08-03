@@ -8,7 +8,7 @@
 
 (if (display-graphic-p)
     (progn
-      (set-face-attribute 'default nil :height 160)
+      (set-face-attribute 'default nil :height 180)
       (use-package doom-themes
         :ensure t)
       (load-theme 'doom-tomorrow-day))
