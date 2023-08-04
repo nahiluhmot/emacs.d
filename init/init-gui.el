@@ -9,7 +9,6 @@
 (if (display-graphic-p)
     (progn
       (set-face-attribute 'default nil :height 180)
-      (set-face-attribute 'default nil :font "Menlo")
       (use-package doom-themes
         :ensure t)
       (load-theme 'doom-tomorrow-day))

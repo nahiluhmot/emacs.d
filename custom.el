@@ -60,9 +60,3 @@
     (cons 340 "#a3a1a1")
     (cons 360 "#a3a1a1")))
  '(vc-annotate-very-old-color nil))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(font-lock-type-face ((t (:foreground "#bb9200" :family "Menlo")))))
