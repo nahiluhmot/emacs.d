@@ -10,10 +10,13 @@
     (progn
       (set-face-attribute 'default nil :height 180)
       (use-package doom-themes
-        :ensure t)
-      (load-theme 'doom-tomorrow-day))
+        :ensure t
+        :init
+        (load-theme 'doom-tomorrow-day)))
   (use-package ujelly-theme
-    :ensure t))
+    :ensure t
+    :init
+    (load-theme 'ujelly)))
 
 (defun day-mode ()
   "Use a lighter theme for day."
