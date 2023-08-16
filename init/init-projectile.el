@@ -15,4 +15,9 @@
   (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
   (projectile-global-mode))
 
+(use-package counsel-projectile
+  :ensure t
+  :config
+  (counsel-projectile-mode))
+
 (provide 'init-projectile)
