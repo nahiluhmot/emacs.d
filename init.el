@@ -53,7 +53,5 @@
 (require 'init-yaml)
 (require 'init-zap)
 
-(require 'init-centaur)
-
 (provide 'init)
 ;;; init.el ends here
