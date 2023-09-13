@@ -6,29 +6,29 @@
   (when (display-graphic-p)
     (add-hook 'after-init-hook 'exec-path-from-shell-initialize)))
 
+(use-package doom-themes
+  :ensure t)
+
+(use-package ujelly-theme
+  :ensure t)
+
 (if (display-graphic-p)
     (progn
       (set-face-attribute 'default nil :height 180)
-      (use-package doom-themes
-        :ensure t
-        :init
-        (load-theme 'doom-tomorrow-day)))
-  (use-package ujelly-theme
-    :ensure t
-    :init
-    (load-theme 'ujelly)))
+      (load-theme 'doom-tomorrow-day))
+  (load-theme 'ujelly))
 
 (defun day-mode ()
   "Use a lighter theme for day."
   (interactive)
-  (disable-theme 'doom-tomorrow-night)
+  (disable-theme 'ujelly)
   (load-theme 'doom-tomorrow-day))
 
 (defun night-mode ()
   "Use a darker theme for night."
   (interactive)
   (disable-theme 'doom-tomorrow-day)
-  (load-theme 'doom-tomorrow-night))
+  (load-theme 'ujelly))
 
 (global-set-key (kbd "C-c d") 'day-mode)
 (global-set-key (kbd "C-c C-d") 'day-mode)
