@@ -8,7 +8,7 @@
  '(elm-format-on-save t)
  '(haskell-stylish-on-save t)
  '(package-selected-packages
-   '(counsel-projectile ivy prettier typescript-mode flycheck-rust rust-mode golden-ratio eglot elm-mode helm-rg lsp-haskell lsp-ui lsp-mode 0blayout company-go doom-themes haskell-mode spacemacs-theme afternoon-theme rbenv projectile-rails prettier-js go-mode js2-mode tide s csv-mode helm-ag exec-path-from-shell yaml-mode web-mode ujelly-theme smartparens rainbow-delimiters helm-projectile projectile markdown-mode magit helm flycheck evil-surround evil diff-hl company coffee-mode use-package))
+   '(0x0 counsel-projectile ivy prettier typescript-mode flycheck-rust rust-mode golden-ratio eglot elm-mode helm-rg lsp-haskell lsp-ui lsp-mode 0blayout company-go doom-themes haskell-mode spacemacs-theme afternoon-theme rbenv projectile-rails prettier-js go-mode js2-mode tide s csv-mode helm-ag exec-path-from-shell yaml-mode web-mode ujelly-theme smartparens rainbow-delimiters helm-projectile projectile markdown-mode magit helm flycheck evil-surround evil diff-hl company coffee-mode use-package))
  '(safe-local-variable-values
    '((flycheck-clang-include-path
       ("./include"))
