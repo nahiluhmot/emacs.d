@@ -11,6 +11,7 @@
   :ensure t
   :config
   (setvar projectile-indexing-mode 'alien)
+  (setvar projectile-enable-caching t)
   (setq projectile-completion-system 'ivy)
   (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
   (projectile-global-mode))
