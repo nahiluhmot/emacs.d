@@ -14,7 +14,9 @@
   (add-hook 'js2-mode-hook 'init-js2-mode))
 
 (use-package prettier
-  :ensure t)
+  :ensure t
+  :config
+  (add-hook 'css-mode-hook 'prettier-mode))
 
 (setvar js-indent-level 2)
 
