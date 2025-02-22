@@ -16,6 +16,6 @@
   (setq typescript-indent-level 2)
   (add-hook 'typescript-mode-hook 'tide-mode)
   (add-hook 'typescript-mode-hook 'prettier-mode)
-  (add-hook 'typescript-moode-hook 'rainbow-delimiters-mode))
+  (add-hook 'typescript-mode-hook 'rainbow-delimiters-mode))
 
 (provide 'init-typescript)
