@@ -14,7 +14,8 @@
   (setvar projectile-enable-caching t)
   (setq projectile-completion-system 'ivy)
   (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
-  (projectile-global-mode))
+  (projectile-global-mode)
+  (projectile-load-known-projects))
 
 (use-package counsel-projectile
   :ensure t
