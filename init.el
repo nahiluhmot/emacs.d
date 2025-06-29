@@ -46,6 +46,7 @@
 (require 'init-smartparens)
 (require 'init-ruby)
 (require 'init-rust)
+(require 'init-sql)
 (require 'init-tmux)
 (require 'init-transpose-superword)
 (require 'init-typescript)
